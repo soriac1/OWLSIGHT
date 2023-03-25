@@ -1,0 +1,201 @@
+body{
+    background-image:  linear-gradient(to right, #f5f7fa, #c3cfe2);
+    
+
+}
+
+ form {
+    border: 5px solid #424244;
+    width:500px;
+    border-radius: 20px;
+    padding-bottom: 5%;
+    background-color:white;
+    margin-top: 20px;
+    height:50%	
+
+    }
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    }
+
+#add {
+        background-color:rgb(86, 186, 245);
+        color: white;
+        padding: 14px 0;
+        margin: 10px 0;
+        margin-left: 0%;
+        border: none;
+        cursor: grabbing;
+        width: 50%;
+        }
+
+#adminpage {
+        background-color:rgb(255,0,0);
+        border-radius: 20px;
+        color: white;
+        padding: 14px 0;
+        margin: 10px 0;
+        margin-left: 0%;
+        border: none;
+        cursor: grabbing;
+        width: 10%;
+        }
+
+#adminpage:hover{
+
+	background-color: rgb(119,136,153) ;
+        opacity: 0.6;
+
+}
+
+#logout {
+        background-color:rgb(119,136,153);
+        color: white;
+        padding: 14px 0;
+        margin: 10px 0;
+        margin-left: 0%;
+        border: none;
+        cursor: grabbing;
+        width: 10%;
+        border-radius: 20px;
+
+        }
+
+#logout:hover{
+
+	 background-color:white;
+	 color: black;	
+
+
+}
+
+
+img{
+    width:30%;
+}
+#container {
+    position:relative;
+}
+#container5{
+    background-color: black;
+    
+    bottom: 0;
+    left: 0;
+}
+#highlighten {
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:75px;
+    left:75px;
+    background: rgba(255, 0, 0, 0.4);
+}
+.container1{
+    display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #fffefe;
+  border-radius: 50px;
+  font-size: large;
+  
+}
+.container2{
+    display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #fffefe;
+  border-radius: 50px;
+}
+.container3{
+    display: inline-block;
+  width: 50%;
+  height: 100%;
+  background: #fffefe;
+  border-radius: 50px;
+  
+}
+
+hr.class-1 {
+    border-top: 10px solid rgb(77, 89, 97);
+}
+
+#button1 {
+    background-color:rgb(86, 186, 245);
+    color:black;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 30%;
+    border-radius: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+#button1.grow {
+
+ transition: all .2s ease-in-out;
+
+}
+#button1:hover{
+transform: scale(1.5);
+}
+
+#button2.grow {
+
+ transition: all .2s ease-in-out;
+
+}
+#button2:hover{
+transform: scale(1.5);
+}
+#button3.grow {
+
+ transition: all .2s ease-in-out;
+
+}
+#button3:hover{
+transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #button2 {
+        background-color:rgb(86, 186, 245);
+        color: black;
+        padding: 14px 0;
+        margin: 10px 0;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border: none;
+        cursor: grabbing;
+        width: 30%;
+        border-radius: 100px;
+
+        }
+    #button3{
+        background-color:rgb(86, 186, 245);
+        color:black;
+        padding: 14px 0;
+        margin: 10px 0;
+        border: none;
+        cursor: grabbing;
+        width: 30%;
+        border-radius: 100px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    }
